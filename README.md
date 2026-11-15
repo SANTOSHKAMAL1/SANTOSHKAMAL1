@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:7aa2f7,100:bb9af7&height=200&section=header&text=Santosh%20Kamal&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Full-Stack%20%26%20Backend%20Developer%20%C2%B7%20AI%20%2F%20ML%20Enthusiast&descAlignY=58&descSize=18&animation=fadeIn" alt="Santosh Kamal" />
+  <img src="./assets/header.svg" alt="Santosh Kamal" width="100%" />
 </p>
 
 <p align="center">
@@ -93,17 +93,6 @@
 | [Arundhati-Gurukulam](https://github.com/SANTOSHKAMAL1/Arundhati-Gurukulam) | Website for Arundhati Gurukulam | `HTML` |
 | [django-student-database](https://github.com/SANTOSHKAMAL1/django-student-database) | Student records app | `Django` `SQLite` |
 
-## 📊 GitHub stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=SANTOSHKAMAL1&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SANTOSHKAMAL1&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SANTOSHKAMAL1&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph" />
-</p>
-
 ## 🤝 Let's connect
 
 <p align="center">
@@ -112,5 +101,5 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:bb9af7,50:7aa2f7,100:1a1b27&height=110&section=footer" alt="" />
+  <img src="./assets/footer.svg" alt="" width="100%" />
 </p>
