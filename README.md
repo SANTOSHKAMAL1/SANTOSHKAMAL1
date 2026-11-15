@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7AA2F7&center=true&vCenter=true&width=700&lines=Building+web+apps+for+education+%F0%9F%8E%93;Backend+APIs+with+C%23+%26+Python;Machine+learning+%26+AI+algorithms+%F0%9F%A4%96;PostgreSQL+%7C+SQL+Server+%7C+SQLite" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7AA2F7&center=true&vCenter=true&width=700&lines=Building+web+apps+for+education+%F0%9F%8E%93;Backend+APIs+with+C%23+%26+Python;LLM+apps%2C+RAG+%26+machine+learning+%F0%9F%A4%96;React+%2B+Node.js+full-stack+apps;PostgreSQL+%7C+SQL+Server+%7C+SQLite" alt="Typing intro" />
 </p>
 
 <p align="center">
@@ -19,8 +19,10 @@
 - 🏫 I build software for **universities and schools**: ERP systems, attendance portals, survey tools and dashboards
 - ⚙️ Backend in **ASP.NET / C#** and **Python (Django, Flask)**
 - 🗄️ Databases with **PostgreSQL**, **SQL Server** and **SQLite**
-- 🤖 AI / ML work: **decision trees (ID3)**, **K-Means clustering**, **A\* search**, **greedy algorithms** and **Azure AI**
-- 🌱 Currently learning **blockchain** and **Node.js**
+- 🧩 Full-stack apps with **React**, **Node.js**, **MongoDB**, **Supabase**, **Firebase** and **Prisma**
+- 🤖 AI / ML work: **LLM apps**, **RAG pipelines**, **Claude API**, **Mistral**, **Azure AI**, plus classic algorithms: **decision trees (ID3)**, **K-Means**, **A\* search** and **greedy search**
+- ☁️ DevOps and hosting: **AWS**, **Vercel**, **Hostinger**, **GoDaddy**, **BigRock** and **ERNET** domains
+- 🌱 Currently learning **blockchain**
 - 💬 Ask me about **EdTech, backend APIs and database design**
 
 ## 🛠️ Tech stack
@@ -28,20 +30,45 @@
 **Languages**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=cs,python,java,js,html,css" alt="Languages" />
+  <img src="https://skillicons.dev/icons?i=cs,python,java,js,ts,html,css" alt="Languages" />
 </p>
 
-**Frameworks & tools**
+**Frontend & backend**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=dotnet,django,flask,nodejs,express,git,github,vscode" alt="Frameworks and tools" />
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,dotnet,django,flask" alt="Frontend and backend" />
 </p>
 
-**Databases & cloud**
+**Databases & backend services**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=postgres,sqlite,mongodb,azure" alt="Databases and cloud" />
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,sqlite,supabase,firebase,prisma" alt="Databases and backend services" />
   <img height="48" src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
+</p>
+
+**AI, LLMs & machine learning**
+
+<p>
+  <img src="https://img.shields.io/badge/Claude%20API-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude API" />
+  <img src="https://img.shields.io/badge/Mistral%20AI-FA520F?style=for-the-badge&logo=mistralai&logoColor=white" alt="Mistral AI" />
+  <img src="https://img.shields.io/badge/LLM%20Apps-7AA2F7?style=for-the-badge" alt="LLM Apps" />
+  <img src="https://img.shields.io/badge/RAG-BB9AF7?style=for-the-badge" alt="RAG" />
+  <img src="https://img.shields.io/badge/Azure%20AI-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure AI" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Machine Learning" />
+  <img src="https://img.shields.io/badge/AI%20Algorithms-1A1B27?style=for-the-badge" alt="AI Algorithms" />
+</p>
+
+**DevOps, cloud & hosting**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,azure,vercel,git,github,githubactions" alt="DevOps and cloud" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Hostinger-673DE6?style=for-the-badge&logo=hostinger&logoColor=white" alt="Hostinger" />
+  <img src="https://img.shields.io/badge/GoDaddy-1BDBDB?style=for-the-badge&logo=godaddy&logoColor=black" alt="GoDaddy" />
+  <img src="https://img.shields.io/badge/BigRock-F26522?style=for-the-badge" alt="BigRock" />
+  <img src="https://img.shields.io/badge/ERNET-0B5394?style=for-the-badge" alt="ERNET" />
+  <img src="https://img.shields.io/badge/DevOps-2E3440?style=for-the-badge" alt="DevOps" />
 </p>
 
 ## 🤖 AI & machine learning projects
@@ -71,10 +98,6 @@
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=SANTOSHKAMAL1&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub stats" />
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SANTOSHKAMAL1&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=SANTOSHKAMAL1&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 </p>
 
 <p align="center">
