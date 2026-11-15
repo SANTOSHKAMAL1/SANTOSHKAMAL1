@@ -12,11 +12,14 @@ import urllib.request
 from html import escape
 
 LOGIN = os.environ.get("METRICS_USER", "SANTOSHKAMAL1")
+# Other accounts owned by the same person (e.g. a work account), merged into the card.
+EXTRA = [u for u in os.environ.get("METRICS_EXTRA_USERS", "ooa-jain").split(",") if u.strip()]
 OUT = os.environ.get("METRICS_OUT", "assets/metrics.svg")
 
 QUERY = """
 query($login: String!) {
   user(login: $login) {
+    login
     name
     createdAt
     followers { totalCount }
@@ -45,20 +48,37 @@ LEVELS = ["#1b222c", "#0e4429", "#006d32", "#26a641", "#39d353"]
 FONT = "'Segoe UI',Helvetica,Arial,sans-serif"
 
 
-def fetch():
+def fetch(login):
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
         sys.exit("GITHUB_TOKEN is not set")
     req = urllib.request.Request(
         "https://api.github.com/graphql",
-        data=json.dumps({"query": QUERY, "variables": {"login": LOGIN}}).encode(),
+        data=json.dumps({"query": QUERY, "variables": {"login": login}}).encode(),
         headers={"Authorization": f"bearer {token}", "User-Agent": "profile-metrics"},
     )
     with urllib.request.urlopen(req, timeout=30) as res:
         body = json.load(res)
     if body.get("errors") or not body.get("data", {}).get("user"):
-        sys.exit(f"GitHub API error: {body.get('errors')}")
+        sys.exit(f"GitHub API error for {login}: {body.get('errors')}")
     return body["data"]["user"]
+
+
+def merge(user, other):
+    """Fold another account's repositories and contributions into `user`."""
+    user["followers"]["totalCount"] += other["followers"]["totalCount"]
+    user["repositories"]["totalCount"] += other["repositories"]["totalCount"]
+    user["repositories"]["nodes"] += other["repositories"]["nodes"]
+    a, b = user["contributionsCollection"], other["contributionsCollection"]
+    a["totalCommitContributions"] += b["totalCommitContributions"]
+    a["contributionCalendar"]["totalContributions"] += b["contributionCalendar"]["totalContributions"]
+    extra = {d["date"]: d["contributionCount"]
+             for w in b["contributionCalendar"]["weeks"] for d in w["contributionDays"]}
+    for w in a["contributionCalendar"]["weeks"]:
+        for d in w["contributionDays"]:
+            d["contributionCount"] += extra.get(d["date"], 0)
+    user.setdefault("merged", []).append(other["login"])
+    return user
 
 
 def shade(hex_color, factor):
@@ -99,7 +119,8 @@ def render(user):
     joined = user["createdAt"][:4]
     name = user.get("name") or LOGIN
     o.append(text(28, 42, name.title() if name.islower() else name, 22, TEXT, 700))
-    o.append(text(28, 64, f"@{LOGIN} · on GitHub since {joined}", 13, MUTED))
+    who = f"@{LOGIN}" + "".join(f" + work account @{m}" for m in user.get("merged", []))
+    o.append(text(28, 64, f"{who} · on GitHub since {joined}", 13, MUTED))
     o.append(text(W - 28, 42, "GitHub metrics", 13, ACCENT, 600, "end"))
 
     tiles = [
@@ -174,7 +195,9 @@ def main():
         with open(sys.argv[2]) as f:
             user = json.load(f)
     else:
-        user = fetch()
+        user = fetch(LOGIN)
+        for login in EXTRA:
+            user = merge(user, fetch(login.strip()))
     os.makedirs(os.path.dirname(OUT) or ".", exist_ok=True)
     with open(OUT, "w") as f:
         f.write(render(user))
