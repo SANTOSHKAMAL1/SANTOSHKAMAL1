@@ -93,6 +93,12 @@
 | [Arundhati-Gurukulam](https://github.com/SANTOSHKAMAL1/Arundhati-Gurukulam) | Website for Arundhati Gurukulam | `HTML` |
 | [django-student-database](https://github.com/SANTOSHKAMAL1/django-student-database) | Student records app | `Django` `SQLite` |
 
+## 📊 GitHub metrics
+
+<p align="center">
+  <img src="./assets/metrics.svg" alt="GitHub metrics: repositories, contributions, most used languages and contribution calendar" width="100%" />
+</p>
+
 ## 🤝 Let's connect
 
 <p align="center">

@@ -23,8 +23,6 @@ query($login: String!) {
     repositories(ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC, first: 100) {
       totalCount
       nodes {
-        stargazerCount
-        forkCount
         languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
           edges { size node { name color } }
         }
@@ -78,7 +76,6 @@ def render(user):
     cal = user["contributionsCollection"]["contributionCalendar"]
     days = [d for w in cal["weeks"] for d in w["contributionDays"]]
 
-    stars = sum(r["stargazerCount"] for r in repos["nodes"])
     langs = {}
     for r in repos["nodes"]:
         for e in r["languages"]["edges"]:
@@ -88,10 +85,6 @@ def render(user):
     top = sorted(langs.items(), key=lambda kv: -kv[1][0])[:6]
     lang_total = sum(v[0] for _, v in top) or 1
 
-    best = run = 0
-    for d in days:
-        run = run + 1 if d["contributionCount"] else 0
-        best = max(best, run)
     active = sum(1 for d in days if d["contributionCount"])
     weekday = [0] * 7
     for d in days:
@@ -104,16 +97,17 @@ def render(user):
          f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="14" fill="{BG}" stroke="{BORDER}"/>']
 
     joined = user["createdAt"][:4]
-    o.append(text(28, 42, user.get("name") or LOGIN, 22, TEXT, 700))
+    name = user.get("name") or LOGIN
+    o.append(text(28, 42, name.title() if name.islower() else name, 22, TEXT, 700))
     o.append(text(28, 64, f"@{LOGIN} · on GitHub since {joined}", 13, MUTED))
     o.append(text(W - 28, 42, "GitHub metrics", 13, ACCENT, 600, "end"))
 
     tiles = [
         ("Public repos", repos["totalCount"]),
         ("Contributions (1 yr)", cal["totalContributions"]),
+        ("Commits (1 yr)", user["contributionsCollection"]["totalCommitContributions"]),
         ("Active days (1 yr)", active),
-        ("Best streak", f"{best} days"),
-        ("Stars", stars),
+        ("Languages", len(langs)),
         ("Followers", user["followers"]["totalCount"]),
     ]
     tw, gap, x0, y0 = 122, 10.4, 28, 84
