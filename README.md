@@ -1,55 +1,93 @@
-<h1 align="center">Hi, I'm Santosh Kamal 👋</h1>
-<h3 align="center">Full-Stack & Backend Developer · ASP.NET · Django · Flask · SQL</h3>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:7aa2f7,100:bb9af7&height=200&section=header&text=Santosh%20Kamal&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Full-Stack%20%26%20Backend%20Developer%20%C2%B7%20AI%20%2F%20ML%20Enthusiast&descAlignY=58&descSize=18&animation=fadeIn" alt="Santosh Kamal" />
+</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=F2C200&center=true&vCenter=true&width=600&lines=Building+web+apps+for+education;Backend+APIs+with+C%23+%26+Python;Databases%3A+PostgreSQL+%7C+SQL+Server+%7C+SQLite" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7AA2F7&center=true&vCenter=true&width=700&lines=Building+web+apps+for+education+%F0%9F%8E%93;Backend+APIs+with+C%23+%26+Python;Machine+learning+%26+AI+algorithms+%F0%9F%A4%96;PostgreSQL+%7C+SQL+Server+%7C+SQLite" alt="Typing intro" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/santosh-kamal-560477205/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/SANTOSHKAMAL1"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <img src="https://komarev.com/ghpvc/?username=SANTOSHKAMAL1&style=for-the-badge&color=7aa2f7&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
 ---
 
-### 🚀 About me
-- 🏫 I build software for universities and schools: ERP systems, attendance portals, survey tools and dashboards
-- ⚙️ Most of my backend work is in **ASP.NET / C#** and **Python (Django, Flask)**
-- 🗄️ I design databases with **PostgreSQL**, **SQL Server** and **SQLite**
-- 🤖 I've also worked on ML/AI projects: decision trees (ID3), K-Means, A*, greedy algorithms, Azure AI
-- 🌱 Currently learning: blockchain and Node.js
+## 🚀 About me
 
-### 🛠️ Tech stack
+- 🏫 I build software for **universities and schools**: ERP systems, attendance portals, survey tools and dashboards
+- ⚙️ Backend in **ASP.NET / C#** and **Python (Django, Flask)**
+- 🗄️ Databases with **PostgreSQL**, **SQL Server** and **SQLite**
+- 🤖 AI / ML work: **decision trees (ID3)**, **K-Means clustering**, **A\* search**, **greedy algorithms** and **Azure AI**
+- 🌱 Currently learning **blockchain** and **Node.js**
+- 💬 Ask me about **EdTech, backend APIs and database design**
+
+## 🛠️ Tech stack
+
+**Languages**
+
 <p>
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=cs,python,java,js,html,css" alt="Languages" />
 </p>
 
-### 📌 Featured projects
-| Project | What it is |
-|---|---|
-| [school-erp](https://github.com/SANTOSHKAMAL1/school-erp) | School ERP system |
-| [attendance-portal](https://github.com/SANTOSHKAMAL1/attendance-portal) | Attendance management portal |
-| [idp-flask-dashboard](https://github.com/SANTOSHKAMAL1/idp-flask-dashboard) | Flask analytics dashboard |
-| [RIASEC-SURVEY](https://github.com/SANTOSHKAMAL1/RIASEC-SURVEY) | RIASEC career-interest survey app |
-| [django-student-database](https://github.com/SANTOSHKAMAL1/django-student-database) | Student records with Django + SQLite |
-| [decision-tree-machine-learning](https://github.com/SANTOSHKAMAL1/decision-tree-machine-learning) | Decision tree using the ID3 algorithm |
+**Frameworks & tools**
 
-### 📊 GitHub stats
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SANTOSHKAMAL1&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SANTOSHKAMAL1&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://skillicons.dev/icons?i=dotnet,django,flask,nodejs,express,git,github,vscode" alt="Frameworks and tools" />
 </p>
 
-### 🤝 Connect
+**Databases & cloud**
+
 <p>
-  <a href="https://github.com/SANTOSHKAMAL1"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/santosh-kamal-560477205/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <img src="https://skillicons.dev/icons?i=postgres,sqlite,mongodb,azure" alt="Databases and cloud" />
+  <img height="48" src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
+</p>
+
+## 🤖 AI & machine learning projects
+
+| Project | What it is | Topics |
+|---|---|---|
+| [decision-tree-machine-learning](https://github.com/SANTOSHKAMAL1/decision-tree-machine-learning) | Decision tree classifier built with the ID3 algorithm | `ML` `ID3` `Jupyter` |
+| [K-Means-clustering-MACHINE-LEARNING](https://github.com/SANTOSHKAMAL1/K-Means-clustering-MACHINE-LEARNING) | K-Means clustering for unsupervised learning | `ML` `Clustering` |
+| [A-star-algorithm-](https://github.com/SANTOSHKAMAL1/A-star-algorithm-) | A\* pathfinding search algorithm | `AI` `Search` `JavaScript` |
+| [GREEDY-ALGORITHM-IN-AI](https://github.com/SANTOSHKAMAL1/GREEDY-ALGORITHM-IN-AI) | Greedy search algorithm for AI problem solving | `AI` `Search` `JavaScript` |
+| [DECISION-TREE-USING-RANDOM-STORY-GENERATOR-AI](https://github.com/SANTOSHKAMAL1/DECISION-TREE-USING-RANDOM-STORY-GENERATOR-AI) | Random story generator driven by a decision tree | `AI` `Decision tree` |
+| [Azure-AI](https://github.com/SANTOSHKAMAL1/Azure-AI) | Experiments with Azure AI services | `Azure` `Cloud AI` |
+
+## 📌 Featured web projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| [school-erp](https://github.com/SANTOSHKAMAL1/school-erp) | School ERP system | `JavaScript` |
+| [attendance-portal](https://github.com/SANTOSHKAMAL1/attendance-portal) | Attendance management portal | `Python` |
+| [idp-flask-dashboard](https://github.com/SANTOSHKAMAL1/idp-flask-dashboard) | Analytics dashboard | `Flask` `HTML` |
+| [RIASEC-SURVEY](https://github.com/SANTOSHKAMAL1/RIASEC-SURVEY) | RIASEC career-interest survey app | `Python` |
+| [Arundhati-Gurukulam](https://github.com/SANTOSHKAMAL1/Arundhati-Gurukulam) | Website for Arundhati Gurukulam | `HTML` |
+| [django-student-database](https://github.com/SANTOSHKAMAL1/django-student-database) | Student records app | `Django` `SQLite` |
+
+## 📊 GitHub stats
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=SANTOSHKAMAL1&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SANTOSHKAMAL1&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=SANTOSHKAMAL1&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SANTOSHKAMAL1&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph" />
+</p>
+
+## 🤝 Let's connect
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/santosh-kamal-560477205/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/SANTOSHKAMAL1?tab=repositories"><img src="https://img.shields.io/badge/GitHub-See%20all%20repos-181717?style=for-the-badge&logo=github&logoColor=white" alt="All repositories" /></a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:bb9af7,50:7aa2f7,100:1a1b27&height=110&section=footer" alt="" />
 </p>
